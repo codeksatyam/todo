@@ -26,7 +26,7 @@ function App() {
         onChange={(e) => setNewTask(e.target.value)}
         placeholder="Add a new task"
       />
-      <button onClick={addTask}>Add Task</button>
+      <button onClick={addTask}>Add Task-satyam</button>
       <ul>
         {tasks.map((task, index) => (
           <li key={index}>
